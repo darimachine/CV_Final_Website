@@ -1,3 +1,93 @@
-body{
-    background-color: #9BA3EB;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+*{
+    
 }
+a{
+    color: #11999E;
+}
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+
+}
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+    
+    
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    
+    
+    
+}
+div {
+    background-color: #E4F9F5;
+    
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 1px;
+    
+}
+.bottom-container{
+    
+}
+.pro{
+    text-decoration: underline;
+}
+.top_cloud{
+   
+    position: absolute;
+    right: 440px;
+    top: 50px;
+    /*block-size: 80px;*/
+
+}
+.bottom_cloud{
+    position: absolute;
+    /*block-size: 80px;*/
+    left:400px;
+}
+.programing_img{
+    
+    
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+   
+}
+hr {
+    border: none;
+    height: 2px;
+    /* Set the hr color */
+    color: rgb(73, 71, 71); /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+.gifs{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
